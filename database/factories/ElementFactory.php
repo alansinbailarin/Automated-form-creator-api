@@ -19,7 +19,6 @@ class ElementFactory extends Factory
         return [
             'title' => fake()->sentence(),
             'order' => fake()->numberBetween(0, 10),
-            'value' => fake()->word(),
             'visible' => fake()->boolean(),
             'required' => fake()->boolean(),
             'multiple_choice' => fake()->boolean(),
